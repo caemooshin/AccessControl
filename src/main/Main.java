@@ -26,13 +26,13 @@ public class Main {
         
         ATM xyz = new ATM(222);
         xyz.withdraw(a,50.00);
-          
+         // display the balance 
         System.out.println("balance a : $" + a.getBalance());
         System.out.println("balance b : $" + b.getBalance());
         
         john.transferbank(a,b, 100.00); 
         john.transferbank(a,b, 30.00); 
-        
+        // display the balance
         System.out.println("balance a : $" + a.getBalance());
         System.out.println("balance b : $" + b.getBalance());
     
